@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.books{
+    display: flex;
+    margin-top: 20px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book button{
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+}
+
+.book button:hover{
+    color: black;
+}
+
+.delete{
+    color: red;
+}
+
+ .update Link{
+    color: blue;
+    align-items: center;
+}
+
+.book img{
+    max-width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.book h2, p, span{
+    margin-bottom: 5px;
+}
+

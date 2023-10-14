@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+
+.form h1{
+    margin-left: 52px;
+    margin-bottom: 20px;
+}
+
+.form input{
+    margin-bottom: 6px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form button{
+    padding: 8px;
+}
